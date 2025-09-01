@@ -1,113 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--CODED BY LUCY :+) -->
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="ASSETS/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ASSETS/Favicon/Favicon.png" type="image/x-icon">
     <title>Lucy Jacobson's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="main-container">
             <div class="header-container">
-              <a href=Work.html>  <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer" class="logo"> </a>
+                <a href=Work.html> <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer" class="logo"
+                        id="logo"> </a>
                 <nav class="nav-links">
+                    <div class="nav-indicator"></div>
                     <a href="Work.html" class="WorkLink">Work</a>
                     <a href="About.html">About</a>
-                    <a href="Contact.html"> Contact</a>
                 </nav>
             </div>
         </div>
     </header>
 
-    <div class="blurb">
-        <div class="text-container">
-            <p>
-                <strong>I’m Lucy</strong> — a product designer who is<br> passionate
-                about <strong class=highlight>solving</strong> real problems, <br> <strong class=highlight>learning</strong> from mistakes, and making <br>
-                 things work <em><strong class="highlight">for people</strong></em>. 
-            </p>
+
+
+<div class="intro-text">
+  <p id="animated-text">
+    <strong class="intro-text-highlight">I'm Lucy</strong> <br>
+    I'm a digital designer turned UX designer. I like solving problems, learning from my mistakes, and designing things that work for people.
+  </p>
+</div>
+
+
+<div class="projects">
+  <a href="Oliver.html" class="project-link">
+    <div class="project-card">
+      <img src="Assets/HomePage/oliverbutton.png" alt="Oliver App Case Study" class="project-image">
+      <div class="project-content">
+        <div class="text-block">
+          <h3 class="project-title">Oliver</h3>
+          <p class="project-description">
+            An app designed to help users manage their daily medication regimen and build long-lasting medication intake habits
+          </p>
         </div>
+        <div class="arrow-circle">→</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="Chase.html" class="project-link">
+    <div class="project-card">
+      <img src="Assets/HomePage/chasebutton.png" alt="Chase Mobile Banking App Case Study" class="project-image">
+      <div class="project-content">
+        <div class="text-block">
+          <h3 class="project-title">Chase Mobile Banking App</h3>
+          <p class="project-description">
+            A feature that allows users to easily calculate their purchases in the local currency & view foreign transaction rates
+          </p>
+        </div>
+        <div class="arrow-circle">→</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="Pakt.html" class="project-link">
+    <div class="project-card">
+      <img src="Assets/HomePage/paktbutton.png" alt="Pakt App Case Study" class="project-image">
+      <div class="project-content">
+        <div class="text-block">
+          <h3 class="project-title">Pakt</h3>
+          <p class="project-description">
+            A double-sided marketplace for gently used packing supplies, aiming to reduce waste and encourage sustainability
+          </p>
+        </div>
+        <div class="arrow-circle">→</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="BakedbyMelissa.html" class="project-link">
+    <div class="project-card">
+      <img src="Assets/HomePage/bbmbutton.png" alt="Baked by Melissa" class="project-image">
+      <div class="project-content">
+        <div class="text-block">
+          <h3 class="project-title">Baked by Melissa</h3>
+          <p class="project-description">
+            Newsletter, social, web, and print design work for the Baked by Melissa brand
+          </p>
+        </div>
+        <div class="arrow-circle">→</div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+<footer class="footer">
+  <img src="Assets/Logo/logo.png" alt="Logo" class="footer-logo">
+
+  <div class="footer-links">
+    <div class="footer-item">
+      <img src="Assets/HomePage/Mail.svg" alt="Mail" class="footer-icon">
+      <a href="mailto:lucyjacobson11@gmail.com">lucyjacobson11@gmail.com</a>
     </div>
 
-    <div class="projects">
-        <a href="Oliver.html" class="project-link">
-            <div class="project-item">
-                <img src="ASSETS/HomePage/OliverButton.png" alt="Oliver Project">
-                <p>
-                    <strong>Oliver</strong> <br>
-                    UX/UI Design / User Research / Branding
-                </p>
-            </div>
-        </a>
-
-        <a href="Pakt.html" class="project-link">
-            <div class="project-item">
-                <img src="ASSETS/HomePage/PaktButton.png" alt="Pakt Project">
-                <p>
-                    <strong>Pakt</strong><br>
-                    UX/UI Design / User Research / Branding
-                </p>
-            </div>
-        </a>
-
-
-        <a href="Chase.html" class="project-link">
-            <div class="project-item">
-                <img src="ASSETS/HomePage/ChaseButton.png" alt="Chase Project">
-                <p>
-                    <strong>Chase</strong><br>
-                    UX/UI Design / User Research
-                </p>
-            </div>
-        </a>
-
-        <a href="Modulist.html" class="project-link">
-            <div class="project-item">
-                <img src="ASSETS/HomePage/ModulistButton.png" alt="Modulist Project">
-                <p>
-                    <strong>Modulist</strong><br>
-                    UX/UI Design / User Research / Branding
-                </p>
-            </div>
-        </a>
-
-        <a href="BakedByMelissa.html" class="project-link">
-            <div class="project-item">
-                <img src="ASSETS/HomePage/BBMButton.png" alt="Baked By Melissa Project">
-                <p>
-                    <strong>Baked by Melissa</strong><br>
-                    Newsletter / Paid social / Website / Out of home / Branding
-                </p>
-            </div>
-        </a>
-
+    <div class="footer-item">
+      <img src="Assets/HomePage/Linkedin.svg" alt="LinkedIn" class="footer-icon">
+      <a href="https://www.linkedin.com/in/lucyjacobson/" target="_blank">LinkedIn</a>
     </div>
 
+    <div class="footer-item">
+      <img src="Assets/HomePage/Pinterest.svg" alt="Pinterest" class="footer-icon">
+      <a href="https://www.pinterest.com/jewcyjacobson/" target="_blank">Pinterest</a>
+    </div>
+  </div>
+</footer>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <p>©2024 by Lucy Jacobson</p>
-            <div class="contact-icons">
-                <a href="mailto:lucyjacobson11@gmail.com"> <!-- Mailto opens users email when clicked https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
-                    <img src="Assets/HomePage/EmailIcon.png" alt="Email Icon">
-                </a>
-                <a href="https://www.instagram.com/jewcy_j_/">
-                    <img src="Assets/HomePage/InstagramIcon.png" alt="Instagram Icon">
-                </a>
-                <a href="https://www.linkedin.com/in/lucyjacobson/">
-                    <img src="Assets/HomePage/LinkedinIcon.png" alt="LinkedIn Icon">
-                </a>
-                <a href="https://www.pinterest.com/JewcyRoseJacobson/">
-                    <img src="Assets/HomePage/PinterestIcon.png" alt="Pinterest Icon">
-                </a>
-            </div>
-        </div>
-    </footer>
+
+<div class="back-to-top" id="backToTop">
+  ↑
+</div>
+
 </body>
 
 </html>

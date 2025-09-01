@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--CODED BY LUCY :+) -->
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucy Jacobson's Portfolio</title>
-    <link rel="icon" href="ASSETS/favicon.png" type="image/x-icon">
+    <link rel="icon" href="ASSETS/Favicon/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
@@ -13,462 +18,628 @@
         <div class="main-container">
             <div class="header-container">
                 <a href="Work.html">
-                    <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer Logo" class="logo">
+                    <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer Logo" class="logo" id="logo">
                 </a>
                 <nav class="nav-links">
                     <a href="Work.html" class="WorkLink">Work</a>
                     <a href="About.html">About</a>
-                    <a href="Contact.html">Contact</a>
                 </nav>
             </div>
         </div>
     </header>
 
- <!-- PROJECT INFO -->
-    <div class="project-row">
-        <div class="project-info">
-            <h4 class="project-title">Oliver</h4>
-            <p>
-                An app designed to help users manage their daily<br>
-                medication regimen by sending reminders for when to<br>
-                take their doses. It also provides information about<br>
-                potential side effects and interactions with other<br>
-                medications, ensuring users stay informed and never<br>
-                miss a dose.<br>
-                (Student project)
-            </p>
-        </div>
-
-        <div class="project-details">
-            <div class="project-scope">
-                <h4 class="scope-title">Scope</h4>
-                <p>
-                    UX Design<br>
-                    Branding<br>
-                    UI Design<br>
-                    Testing
-                </p>
-            </div>
-            <div class="project-timeline">
-                <h4 class="timeline-title">Timeline</h4>
-                <p>
-                    1 month<br>
-                    *Working on a part-time<br> 20hr/week schedule
-                </p>
-            </div>
-        </div>
+    <div class="project-overview">
+        <div class="project-overview-title">OLIVER <br>An app designed to help users manage their daily medication
+            regimen by sending reminders for when to take their doses. It also provides information about potential side
+            effects and interactions with other medications so users can stay informed and never miss a dose.
+            (Student project)</div>
+        <div class="project-overview-scope">SCOPE<br>Research<br>UX Design<br>Branding<br>UI Design<br>User Testing</div>
+        <div class="project-overview-timeline">TIMELINE<br>1 month<br>* Part-time<br>20hr/week schedule</div>
     </div>
 
- <!-- HERO IMAGE -->
-    <div class="image-container">
-        <img src="Assets/Oliver/Hero/OliverHero.png" alt="Oliver App Header Image" class="project-hero-image">
-    </div>
+    <div class="hero-image-container">
+        <img src="Assets/Oliver/Hero/OliverHero.png" alt="Oliver Hero Image" class="project-hero-image">
+    <a href="#" class="figma-button">
+  <span class="figma-button-text">Prototype</span>
+  <div class="arrow-circle">→</div>
+</a>
+ </div>
 
-    <a href="https://www.figma.com/proto/0XNEcfE6Z1ygt2NPPtn59G/Oliver?page-id=129%3A123&node-id=129-124&p=f&viewport=206%2C332%2C0.09&t=GkBvQfoIcCciB9P0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=129%3A124"
-        target="_blank" rel="noopener noreferrer" style="text-decoration: none;" class="figma-link-button">
-        <span class="button-label">Prototype</span>
-        <span class="button-arrow">→</span>
-        </button>
-    </a>
 
- <!-- OVERVIEW -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Overview</h4>
-        <p class="text-style-1">
-            It can be difficult remembering to take your medication and even more difficult when you’re prescribed
-            three or four. In today’s fast-paced world, medication adherence can significantly affect health outcomes,
-            particularly for individuals managing chronic conditions or complex treatment plans.
-        </p>
-    </div>
 
- <!-- PROBLEM -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Problem</h4>
-        <p class="text-style-1">
-            Conversations with five different users underscored a common issue: everyone forgets to take their
-            medication at some point, with some doing so more frequently than others. While missing a dose might
-            result in a longer recovery time for some, in some cases the consequences can be more extreme. For example,
-            missing a dose of blood pressure medication can increase a person’s risk of heart attack, stroke,
-            or kidney failure. Similarly, missing multiple doses of antidepressants may result in symptoms of
-            withdrawal.
-        </p>
-    </div>
 
- <!-- RESEARCH -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">The Research</h4>
-        <p class="text-style-1">
-            In the research portion of this project, it was important for me to speak with a range of users with
-            medication regimens across the spectrum. My research helped me discover the common issue of medication
-            non-adherence and my secondary research helped me confirm this and understand some common reasons as to why
-            people miss their doses. I completed a competitive analysis to find the areas of existing apps and tools
-            that needed to be improved and implemented these updates into my design.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <div class="textbox-inside-style-2">
-            <h4 class="text-section-title-style-oliver">1. Competitive Analysis</h4>
-            <p class="text-style-2">
-                In my competitive analysis of four medication reminder apps, I found that they were neither engaging nor
-                comprehensive in their setup. Key features such as drug interactions, personalized reminders, and
-                integration with a medication database were often lacking. Furthermore, the user interface was less
-                engaging than it could have been.
-            </p>
-        </div>
-
-        <div class="textbox-inside-style-2">
-            <h4 class="text-section-title-style-oliver">2. User Interviews</h4>
-            <p class="text-style-2">
-                I spoke with 5 users, each varying in age and medication regimen. Some users only took antibiotics for
-                temporary medications, while some took medications upwards of 4 times per day. The diversity in
-                medication regimen in the sample size helped to make the app usable for people with varying needs.
-            </p>
-        </div>
-
-        <div class="textbox-inside-style-2">
-            <h4 class="text-section-title-style-oliver">3. Secondary Research</h4>
-            <p class="text-style-2">
-                My secondary research brought an understanding of some of the underlying causes of why people don’t
-                adhere to their medication routine. I found that a common reason is due to not fully understanding
-                intake instructions. This was helpful in gaining a deeper level of empathy for the potential users and
-                to deciding the most important features to be included.
-            </p>
-        </div>
-    </div>
-
- <!-- PARTICIPANTS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">The Participants</h4>
-        <img class="participants" src="Assets/Oliver/Participants/TheParticipants.png" alt="5 participants. 3 female, 2 male.">
-        <p class="text-style-1">
-            5 Participants / 2 Men, 3 Women / Ages 23-68
-        </p>
-    </div>
-
- <!-- AFFINITY MAP -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Key Findings</h4>
-        <p class="text-style-1">
-            The findings from my research reinforced my belief in the need for a medication reminder app that includes
-            timely reminders, side effect and interaction information, pharmacy integration, and detailed input forms.
-            In essence, the goal is to create a comprehensive, user-friendly app that caters to all ages. The cards
-            below, derived from my affinity map, summarize the challenges users face and the changes they hope to see.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <p class="text-style-3">
-            Important findings from my affinity map
-        </p>
-        <img class="image-in-box" src="Assets/Oliver/AffinityMap/AffinityMap.png" alt="Affinity map findings">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=7-728&t=WeRcc46mWvYC63wA-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Affinity Map</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- PERSONAS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Personas</h4>
-        <p class="text-style-1">
-            I developed two personas to effectively represent the diverse medication needs of users based on insights
-            from my interviews. For example, Joan takes up to four medications daily and requires frequent, customizable
-            reminders to manage her routine effectively. In contrast, Emily, who only takes one medication, prioritizes
-            privacy and prefers discreet notifications in public settings. These differences informed the design of the
-            app’s notification features, allowing for tailored options that cater to various lifestyles.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/Personas/UserPersonas.png" alt="User personas">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=25-882&t=WeRcc46mWvYC63wA-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Personas</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- CUSTOMER JOURNEY MAP -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Customer Journey</h4>
-        <p class="text-style-1">
-            To understand what might frustrate and delight the customer during their journey, I created a customer
-            journey map. It helped me grasp why someone would need an app like this and what features could foster
-            loyalty and keep them engaged. For example, incorporating gamification elements like badges or streaks for
-            consistent medication use could motivate users by celebrating milestones, such as taking their medication on
-            time for 3 weeks straight.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/CustomerJourney/CustomerJourney.png" alt="Customer journey map">
-    </div>
-
-    <a href="https://www.figma.com/file/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=25%3A523" target="_blank"
-        rel="noopener noreferrer" class="figma-link-button" style="text-decoration: none;">
-        <span class="button-label">Customer Journey Map</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- POV & HMW STATEMENT -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">POV & HMW Statement</h4>
-        <p class="text-style-1">
-            By crafting personas, the customer journey, and analyzing my research data, my goal was to address the
-            issues posed by this question:
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <h2 class="pov-and-hmw-oliver">How might we create a platform that gives timely medication reminders, <br>simplified
-            instructions, and informs users of side effects and interactions?</h2>
-    </div>
-
- <!-- USER FLOWS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Flows</h4>
-        <p class="text-style-1">
-            To address the “How Might We” question, I created user flows for adding a new medication, updating
-            notification preferences, and viewing medication interactions. These flows directly tackle the three main
-            concerns identified in the question.
-            <br>
-            <br>
-            The most challenging flow to visualize was the “Add a new medication” process. Initially, I thought it could
-            be condensed into a single page. However, as I developed the input page, I realized that the lengthy and
-            complex nature of medication details required a split into two sections: one for medication information and
-            another for timing and notification preferences. I also considered that older users might feel fatigued by a
-            long form, so breaking it up helps create a more user-friendly experience.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/UserFlows/UserFlows.png" alt="User flows">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=36-237&t=A9W4xeXXWMeIftSC-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">User Flows</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- LOW-FIDELITY WIREFRAMES -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Low-Fidelity Wireframes</h4>
-        <p class="text-style-1">
-            I began the low-fidelity wireframes by designing the “home” page, or medication reminder overview, since I
-            knew it would be the most viewed and interacted with screen. This initial design laid the foundation for the
-            subsequent screens. From there, I developed key features, such as the “add a new medication” page, where
-            users can input detailed information, including timing and instructions. The medication page also allows
-            users to access additional information about their prescriptions or edit their inputs.
-            <br>
-            <br>
-            To enhance usability, particularly for older users who may feel fatigued by lengthy forms, I included an
-            option to scan the prescription label for automatic input of medication details. Throughout the design
-            process, I focused on maintaining a minimal and clean layout, prioritizing the timing of medication
-            reminders.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/LowFi/LowFiWireFrames.png" alt="Low Fidelity WireFrames">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=42-289&t=A9W4xeXXWMeIftSC-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Low-Fidelity Wireframes</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- LOW-FIDELITY WIREFRAME TESTING -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Low-Fidelity Wireframe Testing</h4>
-        <p class="text-style-1">
-            Before transitioning to the branding phase and high-fidelity wireframes, I tested the existing screens.
-            Users found the app easy to use and understand but encountered confusion with the new medication form,
-            particularly with the “Quantity” input next to “Dosage” and “Unit.” While I intended it to indicate the
-            number of pills to take, users found it confusing, interpreting it as either the quantity of pills in the
-            bottle or conflicting with the milligram dosage. After careful consideration and discussions with users
-            about their preferences, I decided to remove this input from the form.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <p class="text-style-3">
-            Before & After
-        </p>
-        <img class="image-in-box" src="Assets/Oliver/LowFi/LowFiWireFrameTesting.png" alt="Low Fidelity WireFrame Testing">
-    </div>
-
- <!-- BRANDING -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Branding</h4>
-        <p class="text-style-1">
-            I sought to establish a unique brand identity for this medication reminder app that embodies warmth, trust,
-            friendliness, empathy, support, and positivity. When choosing a name for the application, I reflected on
-            someone who truly embodies these qualities—my dog, Oliver. And that's how the name was born.
-            <br>
-            <br>
-            To achieve this, I incorporated lighthearted illustrations and warm colors. The main logo features a waving
-            pill, while the app logo is a zoomed-in version of the pill's face, ensuring privacy and anonymity in
-            notifications.
-        </p>
-        <img class="branding" src="Assets/Oliver/Branding/Branding.png" alt="Oliver app branding">
-    </div>
-
- <!-- HIGH-FIDELITY WIREFRAMES -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">High-Fidelity Wireframes</h4>
-        <p class="text-style-1">
-            From low-fidelity wireframes to the final designed screens, I focused on creating a robust sign-up flow that
-            allows users to input their essential information and set personalized reminders. To enhance the app's
-            friendly and warm atmosphere, I included lighthearted illustrations throughout the sign-up process.
-            <br>
-            <br>
-            To avoid overwhelming users with information during the sign-up process, it was important to allow them to
-            set up their medication and pharmacy details at a later time.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/HiFi/HiFiWireframes.png" alt="High-Fidelity WireFrames">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=129-123&t=A9W4xeXXWMeIftSC-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">High-Fidelity Wireframes</span>
-        <span class="button-arrow">→</span>
-    </a>
-
-    <div class="textbox-style-1">
-        <p class="text-style-1">
-            After completing the sign-up process, users gain access to reminder overviews, medication summaries, and
-            their profiles, where they can update their information.
-            <br>
-            <br>
-            When users receive medication reminders, they can mark a dose as taken by tapping the circle on the right
-            side of the corresponding medication card, which will display a checkmark to indicate that the medication
-            has been administered.
-            <br>
-            <br>
-            Two of the most critical and tedious screens were the new medication input form and the prescription
-            instructions page. Low-fi wireframe testing helped me streamline the form, making it easier for users to
-            understand what information was required. The data entered is presented in a more digestible format on the
-            medication information screen.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/HiFi/HiFiWireframes2.png" alt="High-Fidelity WireFrames">
-    </div>
-
- <!-- REMINDER NOTIFICATIONS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Reminder Notifications</h4>
-        <p class="text-style-1">
-            A key consideration in designing this app was how reminders appear on users' devices. Notifications could
-            either be detailed, naming the medication, or kept private for discretion. An Apple Watch notification
-            option was also included, allowing users to receive reminders more privately and conveniently.
-            <br>
-            <br>
-            During research, one user expressed frustration with cluttered notifications and frequent app interactions.
-            To address this, I added an option for users to mark a dose as “taken” or “snooze” the reminder directly
-            from their lock screen.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/ReminderNotifications/ReminderNotifications.png"
-            alt="Reminder Notifications">
-    </div>
-
- <!-- USER TESTING -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Testing</h4>
-        <p class="text-style-1">
-            Users responded positively to the app and its design. I asked them to complete tasks like adding a new
-            medication, adjusting an alert time, checking drug interactions, and contacting their pharmacy through the
-            app. While all tasks were completed in seconds, users struggled most with the last one; they took longer to
-            find the pharmacy information and found the refill icon somewhat confusing.
-            <br>
-            <br>
-            Here’s what they said:
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/UserTestingFeedback/UserTestingFeedback.png"
-            alt="User Testing Feedback">
-    </div>
-
- <!-- ITERATIONS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Iterations</h4>
-        <p class="text-style-1">
-            User feedback made it clear that the refill notification needed adjustment. The current design resembled an
-            alert, which led users to think it was related to taking or missing a dose. After exploring refill reminder
-            designs, I implemented the version shown on the right. When I shared it with users, they all agreed it was a
-            clearer and more accurate refill reminder.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Oliver/Iterations/Iterations.png" alt="Iterations">
-    </div>
-
-    <a href="https://www.figma.com/design/0XNEcfE6Z1ygt2NPPtn59G/Oliver?node-id=463-1558&t=A9W4xeXXWMeIftSC-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Iterations</span>
-        <span class="button-arrow">→</span>
-    </a>
-
-<!-- MOVING FORWARD -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Moving Forward</h4>
-        <p class="text-style-1">
-            There are many future opportunities to expand this app. A user I interviewed mentioned that some
-            prescriptions taper in frequency over time, or require more detailed instructions for proper adherence.
-            Additional features could include syncing with other health apps and enabling in-app doctor chat. Since this
-            project only covered the MVP, there’s a lot of room to grow.
-        </p>
-    </div>
-
-<!-- PROJECT NAVIGATION // BOTTOM OF PAGE -->
-    <div class="project-nav">
-    <a href="BakedbyMelissa.html" class="prev">
-        <strong>← Previous Project</strong><br>Baked by Melissa
-    </a>
-    <a href="Pakt.html" class="next">
-        <strong>Next Project →</strong><br>Pakt
-    </a>
+<!--PROBLEM-->
+<div class="project-info-container">
+<div class="project-stage">PROBLEM</div>
+<div class="project-stage-title">Medication Adherence Matters</div>
+<div class="project-stage-blurb">Everyone forgets to take their medication at some point, some more often than others. Sometimes, missing a dose can result in a longer recovery time. Other times, consequences can be more extreme. For example, if people with Parkinson's disease delay their medication intake by even one hour, they can experience an immediate increase in symptoms (Grissinger, 2018). Seeing how missed doses affected loved ones with Parkinson’s showed me how important timely medication is for them and for many others with chronic conditions. That insight led me to build a simple, unobtrusive tool to help people stay on track with their treatment.</div>
 </div>
 
-<!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p>©2024 by Lucy Jacobson</p>
-            <div class="contact-icons">
-                <a href="mailto:lucyjacobson11@gmail.com">
-                    <img src="Assets/HomePage/EmailIcon.png" alt="Email Icon">
-                </a>
-                <a href="https://www.instagram.com/jewcy_j_/">
-                    <img src="Assets/HomePage/InstagramIcon.png" alt="Instagram Icon">
-                </a>
-                <a href="https://www.linkedin.com/in/lucyjacobson/">
-                    <img src="Assets/HomePage/LinkedinIcon.png" alt="LinkedIn Icon">
-                </a>
-                <a href="https://www.pinterest.com/JewcyRoseJacobson/">
-                    <img src="Assets/HomePage/PinterestIcon.png" alt="Pinterest Icon">
-                </a>
-            </div>
-        </div>
-    </footer>
+<!--RESEARCH METHODOLOGIES-->
+<div class="project-info-container">
+<div class="project-stage">RESEARCH METHODOLOGIES</div>
+<div class="project-stage-title">How I identified my users and their needs</div>
+<div class="project-stage-blurb">This project tackles a problem I’ve seen first hand, loved ones struggling with medication adherence. But I knew there was more to the story. I spoke with people with different routines and regimens to learn why doses were being missed and why their current reminders weren’t enough. What I found was a clear gap between how people want to manage their medications and the limited, often inconvenient tools available to them. Here's how I did that:</div>
+</div>
 
-<script src="Popup.js"></script>
+<div class="research-methodologies">
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-graph-up"></i> 
+    </div>
+    <h3 class="method-title">Competitive Analysis</h3>
+  </div>
+
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-chat-dots"></i> 
+    </div>
+    <h3 class="method-title">User Interviews</h3>
+  </div>
+
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-search"></i> 
+    </div>
+    <h3 class="method-title">Secondary Research</h3>
+  </div>
+</div>
+
+<!--COMPETITIVE ANALYSIS-->
+<div class="project-info-container">
+<div class="project-stage">01 COMPETITIVE ANALYSIS</div>
+<div class="project-stage-title">A look at existing medication reminder tools</div>
+<div class="project-stage-blurb">I investigated the leading apps available on the App Store: MyTherapy, Medisafe, RoundHealth, and EveryDose. Each app had its advantage, some allowing for personalized reminders tailored to your schedule, information on drug interactions, or integration with caregivers and healthcare providers. However, advanced features can be locked behind paywalls and the apps lack behavioral reinforcement or consistent follow ups for delayed reminders.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/CompetitiveAnalysis/Competitor Analysis.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Competitive Analysis</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<!--USER INTERVIEWS-->
+<div class="project-info-container">
+<div class="project-stage">02 USER INTERVIEWS</div>
+<div class="project-stage-title">Why do people forget to take their medication?</div>
+<div class="project-stage-blurb">I spoke with 5 users, each varying in age and medication regimen. Some users only took antibiotics for temporary medications, while some took medications upwards of 4 times per day. The diversity in medication regimen helped me visualize an app that caters to varying needs. I set out to find: (1) behavioral patterns around medication adherence, (2) pain points with current tools or methods, (3) what users need to know about their medications. Because the topic of medications and healthcare can be a sensitive subject, I let my participants know they don’t have to share any information they’re not comfortable with and that the details of this interview (prescriptions, illnesses) will not be shared.
+</div>
+</div>
+
+<div class="quote-cards">
+<div class="quote-card">
+  <div class="quote-card-initials">
+    DN
+  </div>
+  <blockquote class="quote-card-text">
+    "When I get prescribed something new, I'm most curious about name, dosage, and <em>how</em> you take it."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    AS
+  </div>
+  <blockquote class="quote-card-text">
+    "I just set a reminder on my phone. Using an app feels like one more thing to do."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    KA
+  </div>
+  <blockquote class="quote-card-text">
+    "When remembering to take my medication it not completely obvious to me, that is when I forget."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    NJ
+  </div>
+  <blockquote class="quote-card-text">
+    "If I miss two doses, I’ll definitely feel it and that’s how I know I have forgotten to take them."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    EB
+  </div>
+  <blockquote class="quote-card-text">
+    "I'll see the notification reminder on my phone and think to myself that I'll take it in 10 minutes…then never do."
+  </blockquote>
+</div>
+</div>
+
+
+<!--AFFINITY MAP-->
+<div class="project-info-container">
+<div class="project-stage">SYNTHESIS</div>
+<div class="project-stage-title">Insights from the interviews</div>
+<div class="project-stage-blurb">Throughout the interviews I noticed some patterns forming in the responses of the participants, particularly regarding the way they remembered (or didn't) to take their medications. I learned that while people are generally curious about their medications and their effects, they don't put much of a routine in place to remember to take them. Two users noted keeping their meds in places that were easily accessible to serve as a visual cue to take them, while other users primarily rely on memory alone.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/AffinityMap/AffinityMap.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Affinity Map</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<div class="project-info-container-extra">
+<div class="project-stage-blurb">Not every medication is time-critical, but there are those that, when administered even 30 minutes after the scheduled dose, can lead to suboptimal therapy and patient harm. After wrapping up the interviews I began to wonder about ways people can build habits and form routines, especially involving medication, that didn't just involve alerts from a phone. What happens when reminders aren't available? Can routines form without constant prompts? Is it possible to create a tool that supports adherence without creating dependence?</div>
+</div>
+
+
+
+<!--KEY TAKEAWAYS-->
+<div class="project-info-container">
+<div class="project-stage">KEY TAKEAWAYS</div>
+<div class="project-stage-title">Conclusions I drew from my research</div>
+<div class="project-stage-blurb">My competitive analysis, user interviews and secondary research left me with a few key insights to consider before moving onto feature selection and designing the app itself:</div>
+</div>
+
+<div class="insight-container">
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Habits and visibility</h3>
+    </div>
+    <p class="insight-text">
+      Users link medication intake with key daily routines (eating breakfast, going to bed) or strategically place medication in a highly visible area to remember their doses. This can be more useful to users than apps or tools.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Reminders alone aren't enough</h3>
+    </div>
+    <p class="insight-text">
+      Users want more personalized notifications that will adapt to their routines and maintain privacy, especially around sensitive medications.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Feeling uninformed</h3>
+    </div>
+    <p class="insight-text">
+      Users expressed a limited awareness about their medications and the interactions they may have with other drugs. They stated their desire to have digestible info about side effects, interactions, and safety.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">App use is low</h3>
+    </div>
+    <p class="insight-text">
+      The participants didn't use medication management apps. They cited friction, complexity, or redundancy with existing tools but showed openness to one that combines reminders, refills, and interaction information.
+    </p> 
+  </div>
+</div>
+
+<!--PROJECT GOALS-->
+<div class="project-info-container">
+<div class="project-stage">PROJECT GOALS</div>
+<div class="project-stage-title">Defining project, user, business, and technical goals</div>
+<div class="project-stage-blurb">With the insights gathered from my research, I began mapping out how to address the most prominent pain points. There were many potential directions (medication interaction and safety info, prescription refills, caregiver support), and it was easy to feel pulled in too many at once. To stay focused, I narrowed the scope to a single goal: helping users build lasting habits around medication adherence. That said, I kept in mind how other features could be integrated later to support a more holistic experience.
+</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/ProjectGoals/ProjectGoals.jpg">
+  </div>
+</div>
+</div>
+
+<div class="project-goals-card">
+  <div class="goals-icon">
+    <i class="bi bi-bullseye"></i>
+  </div>
+  <h3 class="goals-title">PROJECT GOALS</h3>
+  <p class="goals-text">
+    Create a functional and intuitive app that reminds users to take their medications and supports habit formation, ultimately improving medication adherence and promoting better health outcomes.
+  </p>
+</div>
+
+<!--PERSONAS-->
+<div class="project-info-container">
+<div class="project-stage">USER PERSONAS</div>
+<div class="project-stage-title">Defining my users, their goals, and frustrations</div>
+<div class="project-stage-blurb">To reflect the range of needs uncovered in research, I created two user personas: Joan, who manages a complex medication schedule, and Emily, who takes a single daily medication. Their regimens differ but they both want medication to be a background habit, not a disruption. They're looking for routines that integrate naturally into daily life with minimal phone interaction. These personas helped shape a solution that supports different lifestyles and levels of medication complexity.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/Personas/Personas.png">
+  </div>
+</div>
+</div>
+
+<!--CUSTOMER JOURNEY MAP-->
+<div class="project-info-container">
+<div class="project-stage">CUSTOMER JOURNEY MAP</div>
+<div class="project-stage-title">Where you can win them…or lose them</div>
+<div class="project-stage-blurb">I decided to create a customer journey map to help me identify potential areas of friction for my user and how the app might fit into someone's daily life. The journey showed how you can gain confidence by remembering on your own. Small wins, like anticipating when it's time to take your medications before the notifications arrive. This map helped me visualize potential features and how they could create lasting behavioral change.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/CustomerJourney/CustomerJourney.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Customer Journey Map</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<!--POV & HMW-->
+<div class="project-info-container">
+<div class="project-stage">POV & HMW STATEMENT</div>
+<div class="project-stage-title">Framing the problem around habits, not just reminders</div>
+<div class="project-stage-blurb">Clear patterns from my research indicated that users didn't just need reminders, but would benefit from being able to create lasting habits around taking their medication, so as not to become reliant on their mobile device and have to constantly interact with it.</div>
+
+<div class="pov-hmw-container">
+  <div class="pov-section">
+    <div class="pov-tag">POV</div>
+    <p class="pov-text">"I often forget to take my medication, and it feels discouraging, like I'll never build a lasting habit. I need a way to make sure I'm confidently and consistently adhering to my prescription so I have better health outcomes."</p>
+  </div>
+  
+  <div class="arrow-connector">
+    <svg width="60" height="24" viewBox="0 0 60 24" fill="none">
+      <path d="M48 12L52 8M52 8L48 4M52 8H8" stroke="#5B8DFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  
+  <div class="hmw-section">
+    <div class="hmw-tag">HMW</div>
+    <p class="hmw-text">How might we help users feel more confident and consistent with taking their medication and turn reminders into long-term habits that support users' health?</p>
+  </div>
+</div>
+</div>
+
+<div class="pause-card">
+  <div class="pause-icon">
+    <i class="bi bi-sign-stop-fill"></i>
+  </div>
+  <h3 class="pause-title">WAIT A SEC!</h3>
+  <p class="pause-text">
+    At this point, it was clear the issue wasn't just about forgetting, it was about routine. Reminders help, but they don’t guarantee consistency. Before I moved into creating a feature set knew I needed to better understand the psychology of habits: how they're formed and what makes them stick.  </p>
+</div>
+
+
+<!--FURTHER RESEARCH-->
+<div class="project-info-container">
+<div class="project-stage">FURTHER RESEARCH</div>
+<div class="project-stage-title">The psychology of habit building</div>
+<div class="project-stage-blurb">I began this secondary research phase by digging into a few academic papers about habits and how they've been known to stick. I then moved on to existing apps that deal with habit building and examined how they incorporated these habit-building principles into their own design. Here's what I found:</div>
+</div>
+
+<div class="insight-container">
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Specific, challenging goals build stronger habits</h3>
+    </div>
+    <p class="insight-text">
+      Research shows that users are more likely to stay committed when they're given specific, measurable goals rather than vague advice.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Habits stick when tied to routines</h3>
+    </div>
+    <p class="insight-text">
+      Repeating actions at the same time and place, like after breakfast or before brushing your teeth, helps them become automatic, reducing reliance on reminders.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Small steps are key to forming habits</h3>
+    </div>
+    <p class="insight-text">
+      Starting small and rewarding progress, like tracking a streak or receiving encouragement, makes habits feel manageable and more motivating.
+    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Lessons from Popular Apps</h3>
+    </div>
+    <div class="insight-text">
+      <ul>
+        <li>Forest uses growing trees to reinforce focused time off phones.</li>
+        <li>Duolingo's streak system motivates daily use through progress tracking and gentle consequences.</li>
+        <li>Habitica gamifies real-world tasks, turning habits into in-game rewards and penalties.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--FEATURE SET-->
+<div class="project-info-container">
+<div class="project-stage">FEATURE SELECTION</div>
+<div class="project-stage-title">Possible core functions</div>
+<div class="project-stage-blurb">For this app's feature set, I prioritized customizable reminders, simple medication info input, and a habit tracking system that helps users visualize progress, accompanied by encouraging feedback. Based on feedback from interview participants, these features seemed like they would deliver the most immediate value in the MVP.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/FeatureSet/FeatureSet.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Feature Set</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--APP MAP-->
+<div class="project-info-container">
+<div class="project-stage">APP MAP</div>
+<div class="project-stage-title">The structure behind the experience</div>
+<div class="project-stage-blurb">This was when things started to take shape. I considered the insight from my research that people don't want to interact with an app too much, and thought of more ways/features that could automate the experience as much or as little as someone would like. For instance, scanning the medication packaging to instantly add information, integrating the app with an Apple Watch for reminders, and marking medication as taken or skipped, and the option to set goals, as some users may just want the app for reminders only.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/AppMap/AppMap.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">App Map</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--USER FLOWS-->
+<div class="project-info-container">
+<div class="project-stage">USER FLOWS</div>
+<div class="project-stage-title">Piecing it together</div>
+<div class="project-stage-blurb">I created 4 user flows to visualize the main actions users will complete in the app: <strong>Signing up, adding a medication, adding a goal, </strong>and <strong>editing a reminder time.</strong> The flows helped me realize that a reminder should be directly tied to a medication. For instance, if I add Spironolactone to my medication list, I will also need to input the time I'm supposed to take it, instead of adding medications and reminders separately. The timing of the reminder can be edited in the "My Medications" page and the user will be able to set multiple reminders for the same medication, in case they want a notification before or at the time of event.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/UserFlows/UserFlows.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">User Flows</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<!--LOW-FIDELITY WIREFRAMES-->
+<div class="project-info-container">
+<div class="project-stage">LOW-FIDELITY WIREFRAMES</div>
+<div class="project-stage-title">The skeleton of key screens</div>
+<div class="project-stage-blurb">With the app map and user flows complete, I began designing the low-fidelity screens. To manage the overwhelming amount of information, I focused on blocking out each page in its simplest form. This allowed me to keep the design process moving forward, with the flexibility to refine the details later.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/LowFi/LowFiWireframes.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Low-Fidelity Wireframes</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--LOW-FIDELITY WIREFRAMES-->
+<div class="project-info-container">
+<div class="project-stage">BRANDING</div>
+<div class="project-stage-title">Defining the visual tone</div>
+<div class="project-stage-blurb">I created the branding with these characteristics in mind: trustworthy, personable, friendly, reliable, empathetic, supportive, gentle, and positive. To guide my decisions, I revisited the apps from my competitive analysis to evaluate what resonated—and what fell flat. Many felt overly clinical or impersonal, which I wanted to avoid. Instead, I leaned into a more inviting, human-centered approach, using playful illustrations to bring the brand to life.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/Branding/Branding.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Branding</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--HIGH-FIDELITY WIREFRAMES-->
+<div class="project-info-container">
+<div class="project-stage">HIGH-FIDELITY WIREFRAMES</div>
+<div class="project-stage-title">It all comes together</div>
+<div class="project-stage-blurb">With low-fidelity wireframes and branding finalized, I added a mid-fidelity step to refine content before diving into high-fidelity. This was where I figured out how to weave in habit-building prompts, like a habit-stacking input to tie meds to daily routines, and space for users to note where they keep their medication (bedside or bathroom). These small additions help users form stronger, more consistent habits.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/HiFi/HighFi.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">High-Fidelity Wireframes</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--NOTIFICATIONS-->
+<div class="project-info-container">
+<div class="project-stage">NOTIFICATIONS</div>
+<div class="project-stage-title">Reminders and streak messages</div>
+<div class="project-stage-blurb">Getting the medication information input forms down was important. Still, I also needed to think about what the reminders and notifications would look like since that was an integral part of this app. Since streaks and building habits around medication intake were also important, I worked on creating a few pop-up messages and tips that would encourage the user to keep up their good work and continue building stronger habits.</div>
+<div class="multiple-images">
+  <div class="image-with-background">
+    <div class="background-container">
+      <img src="Assets/Oliver/ReminderNotifications/StreakMessages.png">
+    </div>
+  </div>
+  <div class="image-with-background">
+    <div class="background-container">
+      <img src="Assets/Oliver/ReminderNotifications/Notifications.png">
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--TESTING-->
+<div class="project-info-container">
+<div class="project-stage">TESTING</div>
+<div class="project-stage-title">Putting it all to the test</div>
+<div class="project-stage-blurb">I user tested with 7 people to validate the usability of my designs. I had everyone walk me through the onboarding flow and complete 3 tasks: add a medication to the app, edit a medication reminder, and edit your streak goal. Here were some of the questions and feedback I received:
+</div>
+</div>
+
+<div class="quote-cards">
+<div class="quote-card">
+  <div class="quote-card-initials">
+    RL
+  </div>
+  <blockquote class="quote-card-text">
+    "Going from the sign-up page to the enter medication page felt abrupt. I wasn't expecting what came next."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    KO
+  </div>
+  <blockquote class="quote-card-text">
+    "In the medication overview, does quantity mean the number of pills or medication remaining in that prescription?"
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    EB
+  </div>
+  <blockquote class="quote-card-text">
+    "Consider rewording. Dosage is the amount, and frequency is how many times you take the meds."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    NJ
+  </div>
+  <blockquote class="quote-card-text">
+    "The icon you have to notify people to refill looks more like a message notification to me."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    KA
+  </div>
+  <blockquote class="quote-card-text">
+    "Instead of prescription history, maybe the right wording is medication history?"
+  </blockquote>
+</div>
+</div>
+
+<!--ITERATIONS-->
+<div class="project-info-container">
+<div class="project-stage">ITERATIONS</div>
+<div class="project-stage-title">Changes made based on feedback</div>
+<div class="project-stage-blurb">I made four changes based on user testing feedback. The most impactful was refining the input fields to more accurately reflect real prescription details. Users often confused terms like “quantity” and “amount,” so I adjusted the language for better clarity and alignment with how prescriptions are typically written.
+</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Oliver/Iterations/Iterations.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Iterations</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--GOING FORWARD-->
+<div class="project-info-container">
+<div class="project-stage">GOING FORWARD</div>
+<div class="project-stage-title">MVP and beyond</div>
+<div class="project-stage-blurb">All of the "Must Have" and "Nice to Have" features were incorporated into this MVP. Looking ahead, there's great potential to enhance the app further. Below is a proposed phased approach for rolling out more advanced, value-driven features:</div>
+</div>
+
+<div class="feature-roadmap">
+  <div class="phase-tag">PHASE 2</div>
+  <div class="phase-section">
+    <div class="feature-card">
+      <h3 class="feature-title">Adaptive Habit Loop</h3>
+      <p class="feature-description">Introduce behavior-driven scheduling that adjusts reminders based on patterns (doses frequently snoozed, missed doses). This makes adherence more intuitive and aligned with individual habits.</p>
+    </div>
+    
+    <div class="feature-card">
+      <h3 class="feature-title">Family Member / Caregiver Access</h3>
+      <p class="feature-description">Allow family members or caregivers to monitor adherence and receive notifications for missed doses. This can be valuable for users monitoring elderly parents, adding a layer of accountability and peace of mind.</p>
+    </div>
+  </div>
+
+  <div class="phase-tag">PHASE 3</div>
+  <div class="phase-section">
+    <div class="feature-card">
+      <h3 class="feature-title">Pharmacy Integration</h3>
+      <p class="feature-description">This feature would allow direct integration with pharmacies, allowing users to seamlessly request refills through their preferred pharmacy, track refill status, and receive updates on pickup or delivery.</p>
+    </div>
+    
+    <div class="feature-card">
+      <h3 class="feature-title">Medication Dispenser Integration</h3>
+      <p class="feature-description">Enable direct integration with compatible smart medication dispensers to automatically track when a dose is dispensed. This eliminates the need for manual logging and results in more accurate adherence data.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<footer class="footer">
+  <img src="Assets/Logo/logo.png" alt="Logo" class="footer-logo">
+
+  <div class="footer-links">
+    <div class="footer-item">
+      <img src="Assets/HomePage/Mail.svg" alt="Mail" class="footer-icon">
+      <a href="mailto:lucyjacobson11@gmail.com">lucyjacobson11@gmail.com</a>
+    </div>
+
+    <div class="footer-item">
+      <img src="Assets/HomePage/Linkedin.svg" alt="LinkedIn" class="footer-icon">
+      <a href="https://www.linkedin.com/in/lucyjacobson/" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="footer-item">
+      <img src="Assets/HomePage/Pinterest.svg" alt="Pinterest" class="footer-icon">
+      <a href="https://www.pinterest.com/jewcyjacobson/" target="_blank">Pinterest</a>
+    </div>
+  </div>
+</footer>
+
+<div class="back-to-top" id="backToTop">
+  ↑
+</div>
 
 </body>
-
 </html>

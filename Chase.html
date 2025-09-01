@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--CODED BY LUCY :+) -->
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucy Jacobson's Portfolio</title>
-    <link rel="icon" href="ASSETS/favicon.png" type="image/x-icon">
+    <link rel="icon" href="ASSETS/Favicon/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
@@ -13,315 +18,425 @@
         <div class="main-container">
             <div class="header-container">
                 <a href="Work.html">
-                    <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer Logo" class="logo">
+                    <img src="Assets/Logo/Logo.png" alt="Lucy Jacobson Product Designer Logo" class="logo" id="logo">
                 </a>
                 <nav class="nav-links">
                     <a href="Work.html" class="WorkLink">Work</a>
                     <a href="About.html">About</a>
-                    <a href="Contact.html">Contact</a>
                 </nav>
             </div>
         </div>
     </header>
 
- <!-- PROJECT INFO -->
-    <div class="project-row">
-        <div class="project-info">
-            <h4 class="project-title">Chase</h4>
-            <p>
-                A feature that allows users to easily calculate their purchases in the local currency & view foreign transaction rates while traveling abroad.<br>
-                (Student project)
-            </p>
-        </div>
-
-        <div class="project-details">
-            <div class="project-scope">
-                <h4 class="scope-title">Scope</h4>
-                <p>
-                    UX Design<br>
-                    Branding<br>
-                    UI Design<br>
-                    Testing
-                </p>
-            </div>
-            <div class="project-timeline">
-                <h4 class="timeline-title">Timeline</h4>
-                <p>
-                    1 month<br>
-                    *Working on a part-time<br> 20hr/week schedule
-                </p>
-            </div>
-        </div>
+    <div class="project-overview">
+        <div class="project-overview-title">CHASE MOBILE BANKING APP <br>An app designed to help users manage their daily medication
+            regimen by sending reminders for when to take their doses. It also provides information about potential side
+            effects and interactions with other medications so users can stay informed and never miss a dose.
+            (Student project)</div>
+        <div class="project-overview-scope">SCOPE<br>Research<br>UX Design<br>Branding<br>UI Design<br>User Testing</div>
+        <div class="project-overview-timeline">TIMELINE<br>1 month<br>* Part-time<br>20hr/week schedule</div>
     </div>
 
- <!-- HERO IMAGE -->
-    <div class="image-container">
-        <img src="Assets/Chase/Hero/ChaseHero.png" alt="Chase Mobile App Header Image" class="project-hero-image">
-    </div>
+    <div class="hero-image-container">
+        <img src="Assets/Chase/Hero/ChaseHero.png" alt="Chase Hero Image" class="project-hero-image">
+    <a href="#" class="figma-button">
+  <span class="figma-button-text">Prototype</span>
+  <div class="arrow-circle">→</div>
+</a>
+ </div>
 
-    <a href="https://www.figma.com/proto/JxuLXKZYV1UHaH2LFWFCJi/Chase?page-id=0%3A1&node-id=2-4&p=f&viewport=44%2C168%2C0.75&t=aaOahXFEeRXjniSS-1&scaling=scale-down&content-scaling=responsive&starting-point-node-id=2%3A2"
-        target="_blank" rel="noopener noreferrer" style="text-decoration: none;" class="figma-link-button">
-        <span class="button-label">Prototype</span>
-        <span class="button-arrow">→</span>
-        </button>
-    </a>
 
- <!-- OVERVIEW -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Overview</h4>
-        <p class="text-style-1">
-            When traveling abroad, managing expenses can be challenging, with fluctuating exchange rates and hidden foreign transaction fees complicating the process. This UX project aims to simplify the experience by developing a feature that allows users to effortlessly calculate their purchases in the local currency and view foreign transaction rates in real time.
-        </p>
-    </div>
-
- <!-- PROBLEM -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Problem</h4>
-        <p class="text-style-1">
-            Travelers often lack awareness of currency conversions and foreign transaction fees, leading to overspending and going beyond their budget.
-        </p>
-    </div>
-
- <!-- RESEARCH -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">The Research</h4>
-        <p class="text-style-1">
-            With these challenges in mind, I scheduled time to speak with users about their experiences managing finances while traveling abroad. To gain deeper insights, I employed the following two research methods:
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <div class="textbox-inside-style-2">
-            <h4 class="text-section-title-style-chase">1. User Interviews</h4>
-            <p class="text-style-2">
-                I interviewed five recent travelers who shared their experiences with making both large and small purchases abroad. Their insights provided valuable perspectives on the challenges they faced with managing expenses while traveling.
-            </p>
-        </div>
-
-        <div class="textbox-inside-style-2">
-            <h4 class="text-section-title-style-chase">2. Secondary Research</h4>
-            <p class="text-style-2">
-                This project demanded a thorough understanding of foreign transaction fees and up-to-date currency exchange information. Additionally, it required exploring the feasibility of incorporating such features within banking apps.
-            </p>
-        </div>
-    </div>
-
- <!-- PARTICIPANTS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">The Participants</h4>
-        <img class="participants" src="Assets/Chase/Participants/TheParticipants.png" alt="5 participants. 3 female, 2 male.">
-        <p class="text-style-1">
-            5 Participants / 2 Men, 3 Women / Ages 24-30
-        </p>
-    </div>
-
- <!-- AFFINITY MAP -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Key Findings</h4>
-        <p class="text-style-1">
-            One of the most consistent findings from my research was that all participants felt poorly informed about exchange rates and the foreign transaction fees they were being charged.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <p class="text-style-3">
-            Important findings from my affinity map
-        </p>
-        <img class="image-in-box" src="Assets/Chase/AffinityMap/AffinityMap.png" alt="Affinity map findings">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=201-683&t=URRM4rkVQNxFbdKd-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Affinity Map</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- USER PERSONAS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Personas</h4>
-        <p class="text-style-1">
-            I created two personas to embody the individuals I interviewed. Christine represents those who carefully monitor their finances but are constantly seeking to expand their knowledge. Ivan, on the other hand, takes a more relaxed approach to managing his money, hoping to learn along the way and save where possible. Regardless of their level of financial understanding, both personas struggle to grasp exchange rates and foreign transaction fees effectively.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/Personas/UserPersonas.png" alt="User personas">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=201-423&t=URRM4rkVQNxFbdKd-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Personas</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- POV & HMW STATEMENT -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">POV & HMW Statement</h4>
-        <p class="text-style-1">
-            By crafting personas and analyzing my research data, my goal was to tackle the issues posed by this question:
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <h2 class="pov-and-hmw-chase">How might we design an interface that consolidates currency conversion <br>and transparent information on foreign transaction fees?</h2>
-    </div>
-
- <!-- SITE MAP -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Site Map</h4>
-        <p class="text-style-1">
-            The initial step was to determine the most suitable location for this feature. While the "Benefits & Travel" page in the bottom menu seemed like a natural fit, it primarily focuses on points and booking options. Therefore, the next best choice was the "More" page, where other travel-related features are already housed.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/SiteMap/SiteMap.png" alt="Site Map">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=201-156&t=URRM4rkVQNxFbdKd-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Site Map</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- USER FLOWS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Flows</h4>
-        <p class="text-style-1">
-            To address the “How Might We” question above, I mapped out user flows for completing tasks such as "calculating a purchase" and "viewing foreign transaction fees." Given that these tasks are straightforward and don’t require multiple pages, I opted to consolidate both features on a single screen, enhancing the user experience with a streamlined and unified interface.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/UserFlows/UserFlows.png" alt="User flows">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=201-513&t=URRM4rkVQNxFbdKd-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">User Flows</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- BRANDING -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Branding</h4>
-        <p class="text-style-1">
-            I focused on keeping my designs consistent with Chase's established branding. I matched their signature blues and grays, using the same long rectangular buttons for primary actions, with small outlined rounded buttons as secondary options. I stuck with Chase’s typeface and kept the “Currency & Fees” button in line with the simple blue, outlined style found on the “More” page. To keep the screens feeling cohesive, I drew on common layouts seen in the app, designing the currency converter and foreign transaction fees pages to follow the same format as other transaction-related screens. This way, everything felt like a natural extension of Chase's design style.
-        </p>
-    </div>
-
- <!-- HIGH FIDELITY WIREFRAMES -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">High-Fidelity Wireframes</h4>
-        <p class="text-style-1">
-            Thanks to Chase's established branding, I could move directly to creating high-fidelity wireframes. I took screenshots of the existing screens and seamlessly integrated the new feature into the design.
-            <br>
-            <br>
-            Users can access the feature by navigating to the "Currency & Fees" button in the "Travel & Dining" section on the "More" page. Here, they can convert currencies, check exchange rate history, and view foreign transaction fees and their history associated with their cards. Since not all Chase cards incur foreign transaction fees, I also included a screen view for cards with no fees to ensure clarity for all users.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/HiFi/HiFi.png" alt="High Fidelity WireFrames">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=0-1&t=URRM4rkVQNxFbdKd-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">High-Fidelity Wireframes</span>
-        <span class="button-arrow">→</span>
-    </a>
-
- <!-- SOMETHING TO CONSIDER -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Something to Consider</h4>
-        <p class="text-style-1">
-            As a new feature for Chase, it's crucial to consider how it will be introduced to users. The most effective approach would be to notify them directly through an app notification and provide alerts when they begin making purchases abroad. Additionally, users would be prompted to enable location services, allowing the app to automatically set their currency and foreign transaction fee to the one that corresponds with their current location.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/ReminderNotifications/ReminderNotifications.png" alt="Notifications">
-    </div>
-
- <!-- USER TESTING -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">User Testing</h4>
-        <p class="text-style-1">
-            To evaluate the usability and ease of this new feature, I asked users to complete two tasks: converting a currency to their home currency and checking the amount charged in foreign transaction fees.
-            <br>
-            <br>
-            While both tasks were straightforward for all users, there was common confusion about the meaning of some of the numbers displayed. Below are their reactions and questions regarding the presentation of the foreign transaction fee amounts per charge.
-        </p>
-    </div>
-
-     <div class="textbox-style-2">
-        <img class="image-in-box-userfeedback" src="Assets/Chase/UserTestingFeedback/UserTestingFeedback.png" alt="User Testing Feedback">
-    </div>
-
- <!-- ITERATIONS -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Iterations</h4>
-        <p class="text-style-1">
-            Once the feedback from the user testing was received, I went back to the wireframes and added their suggestions. 
-        </p>
-    </div>
-
-    <div class="textbox-style-1-iterations">
-        <h4 class="text-section-title-style-1">Transaction Fee Display</h4>
-        <p class="text-style-1">
-            Since there was confusion on what the small blue numbers meant underneath each transaction made abroad. I had to re-think the way these foreign transaction fee amounts were displayed.
-            To maintain consistency with other screens, I decided to label any deductions from the bank account in red. Additionally, I realized it was clearer to display only the foreign transaction fee amount to avoid any confusion that the fee was being subtracted from the original purchase amount.
-        </p>
-    </div>
-
-    <div class="textbox-style-2">
-        <img class="image-in-box" src="Assets/Chase/Iterations/Iterations.png" alt="Iterations">
-    </div>
-
-    <a href="https://www.figma.com/design/JxuLXKZYV1UHaH2LFWFCJi/Chase?node-id=291-1252&t=BuBOD7s2TbKpBmus-1"
-        target="_blank" rel="noopener noreferrer" class="figma-link-button">
-        <span class="button-label">Iterations</span>
-        <span class="button-arrow">→</span>
-    </a>
-
-<!-- MOVING FORWARD -->
-    <div class="textbox-style-1">
-        <h4 class="text-section-title-style-1">Moving Forward</h4>
-        <p class="text-style-1">
-            As I continue to develop and refine this project, I’m excited to explore a few key additions: an AR currency converter for on-the-go conversions using your camera, voice-activated conversion for hands-free use, and location-based suggestions on local spending norms and cost-saving tips.
-        </p>
-    </div>
-
-<!-- PROJECT NAVIGATION // BOTTOM OF PAGE -->
-    <div class="project-nav">
-    <a href="Pakt.html" class="prev">
-        <strong>← Previous Project</strong><br>Pakt
-    </a>
-    <a href="Modulist.html" class="next">
-        <strong>Next Project →</strong><br>Modulist
-    </a>
+<!--PROBLEM-->
+<div class="project-info-container">
+<div class="project-stage">PROBLEM</div>
+<div class="project-stage-title">Hidden costs derail travel budgets</div>
+<div class="project-stage-blurb">International travelers struggle with financial uncertainty when making purchases abroad. Without real-time visibility into currency conversions and foreign transaction fees, users often discover unexpected charges after returning home. This lack of transparency leads to overspending, budget anxiety, and hesitation to use their Chase cards while traveling.</div>
 </div>
 
-<!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p>©2024 by Lucy Jacobson</p>
-            <div class="contact-icons">
-                <a href="mailto:lucyjacobson11@gmail.com">
-                    <img src="Assets/HomePage/EmailIcon.png" alt="Email Icon">
-                </a>
-                <a href="https://www.instagram.com/jewcy_j_/">
-                    <img src="Assets/HomePage/InstagramIcon.png" alt="Instagram Icon">
-                </a>
-                <a href="https://www.linkedin.com/in/lucyjacobson/">
-                    <img src="Assets/HomePage/LinkedinIcon.png" alt="LinkedIn Icon">
-                </a>
-                <a href="https://www.pinterest.com/JewcyRoseJacobson/">
-                    <img src="Assets/HomePage/PinterestIcon.png" alt="Pinterest Icon">
-                </a>
-            </div>
-        </div>
-    </footer>
-</body>
+<!--RESEARCH METHODOLOGIES-->
+<div class="project-info-container">
+<div class="project-stage">RESEARCH METHODOLOGIES</div>
+<div class="project-stage-title">How I identified my users and their needs</div>
+<div class="project-stage-blurb">To validate my assumptions and identify pain points in mobile banking for international travelers, I conducted user interviews with people who travel internationally. I wanted to understand people’s travel spending patterns, their experiences with mobile banking apps abroad, and their understanding around currency exchange information. I discovered that users frequently experience post-trip surprises about charges and not much real-time visibility into conversion rates. The interviews revealed a need for transparent, easy to find currency information and proactive fee disclosure during international transactions. This project also demanded a thorough understanding of foreign transaction fees and up-to-date currency exchange information, so secondary research to educate myself was necessary. </div>
+</div>
 
+<div class="research-methodologies">
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-graph-up"></i> 
+    </div>
+    <h3 class="method-title">Competitive Analysis</h3>
+  </div>
+
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-chat-dots"></i> 
+    </div>
+    <h3 class="method-title">User Interviews</h3>
+  </div>
+
+  <div class="method-item">
+    <div class="method-circle">
+      <i class="bi bi-search"></i> 
+    </div>
+    <h3 class="method-title">Secondary Research</h3>
+  </div>
+</div>
+
+<!--COMPETITIVE ANALYSIS-->
+<div class="project-info-container">
+<div class="project-stage">01 COMPETITIVE ANALYSIS</div>
+<div class="project-stage-title">Taking a look at mobile banking app’s travel features</div>
+<div class="project-stage-blurb">I analyzed Chase, Wise, PayPal, and XE Currency to understand their international features. While each offers basic currency services, traditional banking apps like Chase lack integrated real-time exchange rates and conversion tools. This forces travelers to juggle multiple apps, and creates an opportunity for Chase to build comprehensive international features directly into their platform.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/CompetitiveAnalysis/CompetitiveAnalysis.png">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Competitive Analysis</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<!--USER INTERVIEWS-->
+<div class="project-info-container">
+<div class="project-stage">02 USER INTERVIEWS</div>
+<div class="project-stage-title">The pain points of frequent travelers</div>
+<div class="project-stage-blurb">I interviewed 5 frequent international travelers to understand their banking experiences abroad. Key findings revealed that users are uninformed about exchange rates and rely on Google for conversions, often discovering fees after transactions occur. Users want integrated currency calculators, real-time exchange rate information, and upfront fee transparency within their banking apps because they often feel that google isn’t always exactly accurate. The research confirmed that travelers currently juggle multiple tools and face post-trip surprises about costs, validating the need for a comprehensive international feature in banking apps.
+</div>
+</div>
+
+<div class="quote-cards">
+<div class="quote-card">
+  <div class="quote-card-initials">
+    AG
+  </div>
+  <blockquote class="quote-card-text">
+    Always finds out after how much he's spent after the apple pay goes off. Never knows how much the exchange rate is.
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    BC
+  </div>
+  <blockquote class="quote-card-text">
+    "Transaction fee is different all the time, it would be helpful if they could tell you exactly what it is."
+  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    RB
+  </div>
+  <blockquote class="quote-card-text">
+Get's charged fees while she's abroad. Not informed about the fees 'I'm losing money left and right.'  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    SF
+  </div>
+  <blockquote class="quote-card-text">
+Used debit card and figured out after the fact that her bank was charging her conversion fees.  </blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    JB
+  </div>
+  <blockquote class="quote-card-text">
+Looks up exchange rates before he goes to the country, but doesn’t feel like google is always accurate. Rates always seem to be a bit off.  </blockquote>
+</div>
+</div>
+
+
+<!--AFFINITY MAP-->
+<div class="project-info-container">
+<div class="project-stage">SYNTHESIS</div>
+<div class="project-stage-title">Insights gathered from users</div>
+<div class="project-stage-blurb">From the interviews, I noticed that participants managed their finances well at home but struggled with financial awareness abroad. While some overspending may stem from a vacation mindset, the primary issue was lack of transparency, users couldn't accurately predict costs due to hidden fees and unclear exchange rates. This uncertainty led to post-trip surprises and "losing money left and right," as one participant described, rather than intentional overspending.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/AffinityMap/AffinityMap.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Affinity Map</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+
+<!--KEY TAKEAWAYS-->
+<div class="project-info-container">
+<div class="project-stage">KEY TAKEAWAYS</div>
+<div class="project-stage-title">What I learned from my research</div>
+<div class="project-stage-blurb">From the interviews, I noticed that participants managed their finances well at home but struggled with financial awareness abroad. While some overspending may stem from a vacation mindset, the primary issue was lack of transparency, users couldn't accurately predict costs due to hidden fees and unclear exchange rates. This uncertainty led to post-trip surprises and "losing money left and right," as one participant described, rather than intentional overspending.</div>
+</div>
+
+<div class="insight-container">
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Hidden fees create post-trip surprises</h3>
+    </div>
+    <p class="insight-text">
+Users consistently discover unexpected conversion fees and charges after returning home, with one participant noting they were "losing money left and right" without really understanding why.    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Exchange rate confusion leads to overspending</h3>
+    </div>
+    <p class="insight-text">
+Travelers rely on Google for quick conversions but struggle with real-time calculations, often finding out "after how much he's spent after the apple pay goes off." Some believe googling exchange rates doesn’t leave them with an accurate depiction of the currency difference    </p>
+  </div>
+
+  <div class="insight-card">
+    <div class="insight-header">
+      <div class="insight-icon">
+        <i class="bi bi-lightbulb"></i>
+      </div>
+      <h3 class="insight-title">Current tools are fragmented</h3>
+    </div>
+    <p class="insight-text">
+Users juggle multiple apps and manual calculations instead of having integrated currency tools, creating gaps in financial awareness while abroad.    </p>
+  </div>
+  </div>
+</div>
+
+<!--PROJECT GOALS-->
+<div class="project-info-container">
+<div class="project-stage">PROJECT GOALS</div>
+<div class="project-stage-title">Aligning user needs and business requirements</div>
+<div class="project-stage-blurb"> From the interviews, I noticed that participants managed their finances well at home but struggled with financial awareness abroad. While some overspending may stem from a vacation mindset, the primary issue was lack of transparency, users couldn't accurately predict costs due to hidden fees and unclear exchange rates. This uncertainty led to post-trip surprises and "losing money left and right," as one participant described, rather than intentional overspending.
+</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/ProjectGoals/ProjectGoals.jpg">
+  </div>
+</div>
+</div>
+
+<div class="project-goals-card">
+  <div class="goals-icon">
+    <i class="bi bi-bullseye"></i>
+  </div>
+  <h3 class="goals-title">PROJECT GOALS</h3>
+  <p class="goals-text">
+Build an integrated travel finance tool that gives Chase users real-time currency conversion and transparent fees to eliminate financial uncertainty while traveling abroad.  </p>
+</div>
+
+<!--PERSONAS-->
+<div class="project-info-container">
+<div class="project-stage">USER PERSONAS</div>
+<div class="project-stage-title">Defining user personas and their pain points</div>
+<div class="project-stage-blurb"> Based on my interviews, I created two personas representing different financial management styles. Christine is a detail-oriented planner who tracks finances daily but struggles with international currency complexity. Ivan is a spontaneous traveler who checks finances weekly and prioritizes experiences over budgeting. Both share frustrations around exchange rate uncertainty and international fees, requiring solutions that address careful planners seeking precision and relaxed travelers wanting simple information.</div>
+<div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/Personas/Personas.png">
+  </div>
+</div>
+</div>
+
+<!--POV & HMW-->
+<div class="project-info-container">
+<div class="project-stage">POV & HMW STATEMENT</div>
+<div class="project-stage-title">Defining the international banking challenge</div>
+<div class="project-stage-blurb">Clear patterns from my research showed me that users would benefit from consolidated financial tools that eliminated guesswork surrounding foreign transaction fees and exchange rates. An added feature to the Chase Mobile Banking App that addresses these challenges could also help build users confidence when spending abroad without discovering unexpected costs after their trip.</div>
+
+<div class="pov-hmw-container">
+  <div class="pov-section">
+    <div class="pov-tag">POV</div>
+    <p class="pov-text">“I need transparent, up-to-date financial information at, or before, the point of purchase abroad. I want to feel as confident managing my finances abroad as I do at home, but I currently experience uncertainty about exchange rates and fees.”</p>
+  </div>
+  
+  <div class="arrow-connector">
+    <svg width="60" height="24" viewBox="0 0 60 24" fill="none">
+      <path d="M48 12L52 8M52 8L48 4M52 8H8" stroke="#5B8DFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  
+  <div class="hmw-section">
+    <div class="hmw-tag">HMW</div>
+    <p class="hmw-text">How might we integrate a feature that provides real-time currency conversion and upfront fee transparency to eliminate financial uncertainty for travelers making purchases abroad?</p>
+  </div>
+</div>
+</div>
+
+<!--APP MAP-->
+<div class="project-info-container">
+<div class="project-stage">APP MAP</div>
+<div class="project-stage-title">Where the new feature would live</div>
+<div class="project-stage-blurb">I audited the Chase mobile banking app to map key pages and user actions, identifying a logical placement for the travel finance feature. The "Travel, dining, and experiences" section was the most logical integration point because it already serves users with travel-related activities.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/SiteMap/Sitemap.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">App Map</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--USER FLOWS-->
+<div class="project-info-container">
+<div class="project-stage">USER FLOWS</div>
+<div class="project-stage-title">How users will navigate the new feature</div>
+<div class="project-stage-blurb">To address the HMW question, I designed two primary user flows showing how travelers can calculate purchases and view foreign transaction fees based on their card and location. I also included an alternate path where users can explore fee-free cards, supporting the business goal of promoting Chase cards without foreign transaction fees to increase card sales.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/UserFlows/Userflows.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">User Flows</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--HIGH-FIDELITY WIREFRAMES-->
+<div class="project-info-container">
+<div class="project-stage">HIGH-FIDELITY WIREFRAMES</div>
+<div class="project-stage-title">Final designs for the Currency & fees feature</div>
+<div class="project-stage-blurb">To save time, and since Chase already has an established brand identity, I skipped low-fidelity wireframes and branding work, moving directly into high-fidelity design. I replicated the UI on the mobile banking app to make sure the designs for the new feature were consistent with the existing design. The small number of screens required for this feature resulted in a quick project timeline. Below are all the pages that make up the new feature.
+<br>
+<br>
+Users can access the feature by navigating to the "Currency & Fees" button in the "Travel & Dining" section on the "More" page. Here, they can convert currencies, check exchange rate history, and view foreign transaction fees based on their location and the fee history associated with their cards. Since not all Chase cards incur foreign transaction fees, I also included a screen view for cards with no fees to ensure clarity for all users.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/HiFi/HiFi.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">High-Fidelity Wireframes</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--SOMETHING TO CONSIDER-->
+<div class="project-info-container">
+<div class="project-stage">SOMETHING TO CONSIDER</div>
+<div class="project-stage-title">Feature introduction and location-based alerts</div>
+<div class="project-stage-blurb">As a new feature for Chase, it's important to consider how it will be introduced to users. The most effective approach would be to notify them directly through an app notification and provide alerts when they begin making purchases abroad. Additionally, users would be prompted to enable location services, allowing the app to automatically set their currency and see foreign transaction fee to the one that corresponds with their location.</div>
+<div class="multiple-images">
+  <div class="image-with-background">
+    <div class="background-container">
+      <img src="Assets/Chase/ReminderNotifications/Notifications.jpg">
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--TESTING-->
+<div class="project-info-container">
+<div class="project-stage">TESTING</div>
+<div class="project-stage-title">What works, what doesn’t</div>
+<div class="project-stage-blurb">To evaluate the usability and ease of this new feature, I asked users to complete two tasks: converting a currency to their home currency and checking the amount charged in foreign transaction fees. While both tasks were straightforward for all users, there was common confusion about the meaning of the numbers in the foreign transaction fee section. Below are the user’s reactions and questions regarding the presentation of the foreign transaction fee charge display.
+</div>
+</div>
+
+<div class="quote-cards-4">
+<div class="quote-card">
+  <div class="quote-card-initials">
+    AG
+  </div>
+  <blockquote class="quote-card-text">
+“To my understanding the small black numbers could be sales tax or the difference in currency exchange”  
+</blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    BC
+  </div>
+  <blockquote class="quote-card-text">
+“That is the fee amount. I would suggest adding “fee” to make it incredibly clear”
+</blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    SF
+  </div>
+  <blockquote class="quote-card-text">
+“Is this the current balance/available credit after purchase?”  
+</blockquote>
+</div>
+
+<div class="quote-card">
+  <div class="quote-card-initials">
+    JB
+  </div>
+  <blockquote class="quote-card-text">
+“Is this supposed to be the conversion rate?”  
+</blockquote>
+</div>
+</div>
+
+
+<!--ITERATIONS-->
+<div class="project-info-container">
+<div class="project-stage">ITERATIONS</div>
+<div class="project-stage-title">Changes made based on feedback</div>
+<div class="project-stage-blurb">Once the feedback from the user testing was received, I went back to the wireframes and added their suggestions. Since there was confusion on what the small blue numbers meant underneath each transaction made abroad. I had to re-think the way these foreign transaction fee amounts were displayed.
+<br>
+<br>
+To maintain consistency with other screens, I decided to label any deductions from the bank account in red. Additionally, I realized it was clearer to display only the foreign transaction fee amount to avoid any confusion that the fee was being subtracted from the original purchase amount.</div>
+  <div class="image-with-background">
+  <div class="background-container">
+    <img src="Assets/Chase/Iterations/Iterations.jpg">
+  </div>
+</div>
+<a href="#" class="figma-button">
+  <span class="figma-button-text">Iterations</span>
+  <div class="arrow-circle">→</div>
+</a>
+</div>
+
+<!--GOING FORWARD-->
+<div class="project-info-container">
+<div class="project-stage">GOING FORWARD</div>
+<div class="project-stage-title">What comes next</div>
+<div class="project-stage-blurb">As I continue to develop and refine this project, I want to explore a few new additions: an AR currency converter to scan price tags using your camera and location-based suggestions on local spending norms and cost-saving tips.</div>
+</div>
+
+
+<footer class="footer">
+  <img src="Assets/Logo/logo.png" alt="Logo" class="footer-logo">
+
+  <div class="footer-links">
+    <div class="footer-item">
+      <img src="Assets/HomePage/Mail.svg" alt="Mail" class="footer-icon">
+      <a href="mailto:lucyjacobson11@gmail.com">lucyjacobson11@gmail.com</a>
+    </div>
+
+    <div class="footer-item">
+      <img src="Assets/HomePage/Linkedin.svg" alt="LinkedIn" class="footer-icon">
+      <a href="https://www.linkedin.com/in/lucyjacobson/" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="footer-item">
+      <img src="Assets/HomePage/Pinterest.svg" alt="Pinterest" class="footer-icon">
+      <a href="https://www.pinterest.com/jewcyjacobson/" target="_blank">Pinterest</a>
+    </div>
+  </div>
+</footer>
+
+<div class="back-to-top" id="backToTop">
+  ↑
+</div>
+
+
+</body>
 </html>
